@@ -3,3 +3,9 @@ A Git egy nyílt forráskódú, elosztott verziókezelő szoftver, vagy máskép
 A verziókezelő rendszer (version control system, VCS), más néven revíziókezelő vagy forráskezelő rendszer, olyan szoftveres segédprogram, amely nyomon követi és kezeli a fájlrendszerben végzett módosításokat. A VCS ezenkívül együttműködési segédeszközöket is kínál a fájlrendszerben történt módosítások integrálására és más VCS-felhasználókkal való megosztására. Amikor fájlrendszer szintjén működik, a VCS nyomon követi a fájlokon és könyvtárakon végzett hozzáadási, törlési és módosítási műveleteket. Az egyedi forráskódfájlok esetében a VCS nyomon követi az adott fájl szövegsorain végzett hozzáadási, törlési és módosítási műveleteket. Az ágazat népszerű szoftveres VCS-megoldásai közé tartozik a Git, a Mercurial, az SVN és a Preforce.
 
 A Git előnyei: hatékonyság, megbízhatóság és kompatibilitás nagyszámú forráskódfájllal rendelkező projekteknél is.
+
+
+
+
+Ahhoz, hogy az összes .txt típusú fájlt hagyja figyelmen kívül a Git, a .gitignor fájlba a következőt kellene írni:
+*.txt
